@@ -1,0 +1,147 @@
+.why-we-sction{
+    margin: 60px 80px 60px 80px;
+}
+
+.why-we-sction .why-title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+.why-we-sction .why-title span{
+    color:#CB8461
+}
+
+.why-we-sction .info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+    
+}
+.why-we-sction .info .ceo-all-part{
+    padding: 20px 0px 30px 0px;
+    border-bottom: 1px solid rgba(44, 44, 44, 0.2);
+}
+.why-we-sction .info .ceo-info{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.why-we-sction .info .ceo-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2C2C2C;
+    margin: 0px;
+}
+.why-we-sction .info .ceo-info p{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #808080;
+}
+.why-we-sction .info .counter-part{
+    margin-top: 15px;
+}
+.why-we-sction .info .counter-part h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color:  #2C2C2C;
+    margin: 0px;
+    
+}
+.why-we-sction .info .counter-part p{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+}
+.why-we-sction .all-skill{
+    margin-left: 30px;
+}
+
+.why-we-sction .all-skill .skill-item{
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+.why-we-sction .all-skill .skill-item h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color:  #245D51;
+    margin-top: 20px;
+}
+
+.why-we-sction .all-skill .skill-item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+}
+
+
+
+@media screen and (max-width: 992px){
+    .why-we-sction{
+        margin: 60px 20px 60px 20px;
+    }
+    .why-we-sction .info{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .why-we-sction .info .ceo-all-part{
+        justify-content: center;
+    }
+    .why-we-sction .info .ceo-info p{
+        text-align: left;
+    }
+    .why-we-sction .info .counter-part{
+        justify-content: center;
+    }
+    .why-we-sction .all-skill{
+        margin: 0px;
+    }
+    .why-we-sction .all-skill .skill-item{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .why-we-sction .why-title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .why-we-sction .info p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .why-we-sction .info .ceo-info h3{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .why-we-sction .info .ceo-info p{
+        font-size: 10px;
+        line-height: 8px;
+    }
+    .why-we-sction .info .counter-part h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .why-we-sction .info .counter-part p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .why-we-sction .all-skill .skill-item h1{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .why-we-sction .all-skill .skill-item p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+}

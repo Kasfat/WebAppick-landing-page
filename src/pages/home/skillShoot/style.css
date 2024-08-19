@@ -1,0 +1,193 @@
+.skill-shoot-section{
+    margin: 40px 80px 40px 80px;
+}
+
+.skill-shoot-section .person-img-content{
+    width: 400px;
+    height: 470px;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.skill-shoot-section .person-img-content img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-position: center;
+    object-fit: cover;
+}
+.skill-shoot-section .skill-shoot-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px;
+    line-height: 70px;
+    color: #2c2c2c;
+}
+.skill-shoot-section .skill-shoot-content h1 span{
+    position: relative;
+}
+.skill-shoot-section .skill-shoot-content h1 span::after{
+    content: '';
+    width: 230px;
+    height: 20px;
+    background-image: url(/src/assets/images/txtUnderLineImg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    
+}
+.skill-shoot-section .skill-shoot-content h1 span{
+    color: #245D51;
+}
+.skill-shoot-section .skill-shoot-content .content-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+}
+
+.skill-shoot-section .skill-shoot-content .icon-text{
+    margin: 0px 0px 0px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2c2c2c;
+}
+
+.skill-shoot-section .skill-improve{
+    background:  #F2E7DB;
+    border-radius: 15px;
+    padding: 60px 40px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.skill-shoot-section .skill-improve .orange-square{
+    position: absolute;
+    bottom: -20px;
+    right: 40%;
+}
+
+.skill-shoot-section .skill-improve .info{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.skill-shoot-section .skill-improve .info span.half-circle-left{
+    position: absolute;
+    width: 50px !important;
+    height: 50px !important;
+    background: #245D51;
+    top: 0;
+    left: 0;
+    border-radius: 5px 0px 50px 0px;
+    bottom: 0;
+}
+.skill-shoot-section .skill-improve .info h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #2C2C2C;
+    max-width: 550px;
+}
+
+.skill-shoot-section .skill-improve .info h1 span{
+    color: #CB8461;
+}
+
+.skill-shoot-section .skill-improve .info button.join-btn{
+    padding: 15px 25px 15px 25px;
+    background: #CB8461;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    border: none;
+    border-radius: 4px;
+ }
+
+.skill-shoot-section .skill-improve .info button.sub-course-btn{
+    padding: 15px 25px 15px 25px;
+    background: #245D51;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    border: none;
+    border-radius: 4px;
+   
+ }
+
+
+
+ @media screen and (max-width: 992px){
+    .skill-shoot-section .person{
+        display: none;
+    }
+    .skill-shoot-section{
+        margin: 40px 20px 40px 20px;
+    }
+    .skill-shoot-section .skill-improve .info{
+        flex-direction: column;
+    }
+    .skill-shoot-section .skill-improve .info h1{
+        text-align: center;
+    }
+    .skill-shoot-section .skill-improve .orange-square{
+        top:50%;
+        right: -15px;
+    }
+    .skill-shoot-section .skill-improve .orange-square img{
+        width: 36px;
+        height: 36px;
+    }
+ }
+
+ @media screen and (max-width: 768px){
+    .skill-shoot-section .skill-shoot-content h1{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .skill-shoot-section .skill-shoot-content .content-text{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .skill-shoot-section .skill-shoot-content .icon-text{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .skill-shoot-section .skill-shoot-content h1 span::after{
+        content: '';
+        width: 97px;
+        height: 20px;
+        background-image: url(/src/assets/images/underLine-mobile.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: -20px;
+        right: 0;
+    }
+    .skill-shoot-section .skill-improve .info h1{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .skill-shoot-section .skill-improve{
+        padding: 60px 20px;
+    }
+    .btn-group{
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        
+    }
+    .skill-shoot-section .skill-improve .info button.join-btn{
+        width: 75%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .skill-shoot-section .skill-improve .info button.sub-course-btn{
+        font-size: 14px;
+        line-height: 18px;
+    }
+ }
+

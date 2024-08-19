@@ -1,0 +1,206 @@
+.customer-review-section{
+    background-color: #F8F8F8;
+    min-height: 400px;
+}
+.customer-review-section .content-part{
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.customer-review-section .content-part .shape-1{
+    display: none;
+}
+
+.customer-review-section .content-part .shape-2{
+    display: none;
+}
+
+.customer-review-section .content-part .customer-review-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.customer-review-section .content-part .customer-review-header h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #2C2C2C;
+}
+.customer-review-section .content-part .customer-review-header h1 span{
+    color: #CB8461;
+}
+.customer-review-section .content-part .customer-review-header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+    margin: 0;
+}
+
+.customer-review-section .content-part .card{
+    padding: 30px 20px 0px 15px;
+    margin-bottom: 50px;
+    border: none;
+    background: #F8F8F8;
+}
+.customer-review-section .content-part .card .card-body{
+    text-align: center;
+    padding-bottom: 0;
+}
+.customer-review-section .content-part .card .card-body h3{
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 30px;
+ color: #2c2c2c;
+}
+.customer-review-section .content-part .card .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+}
+
+.content-part .slick-arrow{
+    background-color: #fff !important;
+}
+.content-part .slick-arrow.slick-prev{
+    top: 95% !important;
+    left: inherit !important;
+    right: 50% !important;
+}
+.content-part .slick-arrow.slick-next{
+    top: 95% !important;
+    right: 45% !important;
+}
+
+.slick-arrow:hover{
+    background-color: #CB8461 !important;
+  }
+  .slick-arrow.slick-next:hover::before {
+    background-color: #CB8461 !important;
+  }
+  .slick-arrow:hover {
+    background-color: #CB8461  !important;
+  }
+  .slick-arrow.slick-prev:hover::before {
+    background-color: #CB8461 !important;
+  }
+.slick-arrow:hover::before{color: #fff !important;}
+
+
+    
+
+.slick-center .card {
+    background-color: white !important;
+    border: none; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #245D51 !important;
+  }
+
+
+
+ 
+
+  
+ 
+  
+ 
+ 
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .customer-review-section .content-part{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .customer-review-section .content-part .shape-1{
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 0px;
+    }
+    
+    .customer-review-section .content-part .shape-2{
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .customer-review-section .content-part .customer-review-header h1{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .customer-review-section .content-part .customer-review-header p{
+        font-size: 12px;
+        line-height: 25px;
+        padding: 0px 30px;
+    }
+    .customer-review-section .content-part .card .card-body h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .customer-review-section .content-part .card .card-body p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+   
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+    .content-part .slick-arrow.slick-prev{
+     top: 100% !important;
+        right:  50%!important;
+    }
+    .content-part .slick-arrow.slick-next{
+        top: 100% !important;
+        right: 30% !important;
+    }
+    
+}
+
+@media (min-width: 501px) and (max-width: 700px){
+    .content-part .slick-arrow.slick-prev{
+        top: 100% !important;
+           right:  50%!important;
+       }
+       .content-part .slick-arrow.slick-next{
+           top: 100% !important;
+           right: 38% !important;
+       }
+   }
+
+   @media (min-width: 701px) and (max-width: 900px){
+    .content-part .slick-arrow.slick-prev{
+        top: 100% !important;
+           right:  50%!important;
+       }
+       .content-part .slick-arrow.slick-next{
+           top: 100% !important;
+           right: 43% !important;
+       }
+   }
+
+   @media (min-width: 901px) and (max-width: 1100px){
+    .content-part .slick-arrow.slick-prev{
+        top: 100% !important;
+           right:  48%!important;
+       }
+       .content-part .slick-arrow.slick-next{
+           top: 100% !important;
+           right: 40% !important;
+       }
+   }
+
+ 

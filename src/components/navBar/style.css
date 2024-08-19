@@ -1,0 +1,95 @@
+header {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0px;
+    background: #245D51;
+    border-color: #245D51;
+    position: relative;
+}
+.content-menu{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+header .text-logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    line-height: 30px;
+    margin: 0px;
+}
+header .text-logo span{
+    color: #CB8461;
+}
+.menu-item{
+    margin-left: 10rem;
+}
+.menu-item li{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+.list-inline-item.active{
+    color: #FFFFFF !important;
+}
+.log-in{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.register-btn{
+    padding:12px 25px 12px 25px !important;
+    border-radius: 4px;
+     background: #CB8461;
+    color: #FFFFFF;
+    border: none;
+  
+}
+
+.content-menu .mobile-menu-icon{
+    display: none !important;
+}
+.mobile-menu{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 992px){
+    .content-menu{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    header .content-menu .menu-list{
+        display: none !important;
+    }
+    .content-menu .mobile-menu-icon{
+        display: flex !important;
+    }
+    .mobile-menu{
+        display: block;
+        position: absolute;
+        top: 65px;
+        z-index: 999;
+        width: 100%;
+        background: #245D51;
+    }
+    .mobile-menu ul{
+        padding: 0px;
+    }
+    .mobile-menu ul li{
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.6);
+        cursor: pointer;
+        list-style: none;
+        padding: 5px 0px;
+    }
+    .mobile-menu ul li.active{
+        color: #FFFFFF !important;
+    }
+
+}
