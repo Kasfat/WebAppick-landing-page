@@ -1,5 +1,5 @@
 .why-we-sction{
-    margin: 60px 80px 60px 80px;
+    margin: 60px 80px 20px 80px;
 }
 
 .why-we-sction .why-title{
@@ -64,30 +64,10 @@
     margin-left: 30px;
 }
 
-.why-we-sction .all-skill .skill-item{
-    padding-right: 20px;
-    margin-bottom: 40px;
-}
-.why-we-sction .all-skill .skill-item h1{
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 30px;
-    color:  #245D51;
-    margin-top: 20px;
-}
-
-.why-we-sction .all-skill .skill-item p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #808080;
-}
-
-
 
 @media screen and (max-width: 992px){
     .why-we-sction{
-        margin: 60px 20px 60px 20px;
+        margin: 40px 20px 10px 20px;
     }
     .why-we-sction .info{
         text-align: center;
@@ -105,10 +85,7 @@
     .why-we-sction .all-skill{
         margin: 0px;
     }
-    .why-we-sction .all-skill .skill-item{
-        text-align: center;
-        margin-bottom: 20px;
-    }
+    
 }
 
 @media screen and (max-width: 768px){
@@ -136,12 +113,5 @@
         font-size: 10px;
         line-height: 12px;
     }
-    .why-we-sction .all-skill .skill-item h1{
-        font-size: 18px;
-        line-height: 25px;
-    }
-    .why-we-sction .all-skill .skill-item p{
-        font-size: 12px;
-        line-height: 25px;
-    }
+    
 }

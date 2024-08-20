@@ -13,8 +13,54 @@ import PlayBtnIcon from "../../../assets/images/playBtn.png";
 import OrngeIcon from "../../../assets/images/orangeSquare.png";
 import CircleIcon from "../../../assets/images/circle.png";
 import Slider from "react-slick";
+import CourseCard from "../../../components/courseCard";
 
 function PopulerCourses() {
+  const courses = [
+    {
+      courseImage: ProductCardImage1,
+      playButtonImage: PlayBtnIcon,
+      courseTitle: "Basics of learning team management",
+      instructor: {
+        image: PersonImage1,
+        name: "Jone Owel",
+        title: "IT Manager",
+      },
+      participantIcon: ParticipantIcon,
+      participantCount: 120,
+      price: 120,
+      videoCount: 25,
+    },
+    {
+      courseImage: ProductCardImage2,
+      playButtonImage: PlayBtnIcon,
+      courseTitle: "Basics of learning team management",
+      instructor: {
+        image: PersonImage2,
+        name: "Roynaldo Jr",
+        title: "Data Science",
+      },
+      participantIcon: ParticipantIcon,
+      participantCount: 55,
+      price: 180,
+      videoCount: 25,
+    },
+    {
+      courseImage: ProductCardImage3,
+      playButtonImage: PlayBtnIcon,
+      courseTitle: "Create dynamic website with basic php",
+      instructor: {
+        image: PersonImage3,
+        name: "Markus Low",
+        title: "Programer",
+      },
+      participantIcon: ParticipantIcon,
+      participantCount: 98,
+      price: 135,
+      videoCount: 20,
+    },
+  ];
+
   const settings = {
     dots: false,
     infinite: true,
@@ -42,15 +88,14 @@ function PopulerCourses() {
   };
 
   return (
-    <div className="populer-courses-section">
-      
-        <div className="course-info">
-          <h1>Popular courses of the week</h1>
-          <p>
-            List of the most popular lists that are often studied by our members
-          </p>
-        </div>
-    
+    <div id="Course" className="populer-courses-section">
+      <div className="course-info">
+        <h1>Popular courses of the week</h1>
+        <p>
+          List of the most popular lists that are often studied by our members
+        </p>
+      </div>
+
       <div className="orange-shape">
         <img src={OrngeIcon} />
       </div>
@@ -60,156 +105,19 @@ function PopulerCourses() {
       <div className="row card-section">
         <div className="col-md-12">
           <Slider {...settings} className="productSlider">
-            <div className="item">
-              <div className="product-card">
-                <div className="card-img">
-                  <img src={ProductCardImage1} />
-                  <div className="play-btn">
-                    <img src={PlayBtnIcon} />
-                  </div>
-                </div>
-                <div className="card-body">
-                  <h2>Basics of learning team management</h2>
-                  <div className=" d-flex justify-content-between align-items-center">
-                    <div className="d-flex align-items-center mt-2">
-                      <img src={PersonImage1} />
-                      <div className="person-info">
-                        <h3>Jone Owel</h3>
-                        <p>IT Manager</p>
-                      </div>
-                    </div>
-                    <div className="d-flex align-items-center">
-                      <img src={ParticipantIcon} />
-                      <div className="person-info">
-                        <h3>120</h3>
-                        <p>Participant</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-between align-items-center card-buy-course">
-                  <button className="buy-btn">Buy Now</button>
-                  <div className="buy-price">
-                    <p>
-                      $120<span>/25 Video</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="product-card">
-                <div className="card-img">
-                  <img src={ProductCardImage2} />
-                  <div className="play-btn">
-                    <img src={PlayBtnIcon} />
-                  </div>
-                </div>
-                <div className="card-body">
-                  <h2>Basics of learning team management</h2>
-                  <div className=" d-flex justify-content-between align-items-center">
-                    <div className="d-flex align-items-center mt-2">
-                      <img src={PersonImage2} />
-                      <div className="person-info">
-                        <h3>Jone Owel</h3>
-                        <p>IT Manager</p>
-                      </div>
-                    </div>
-                    <div className="d-flex align-items-center">
-                      <img src={ParticipantIcon} />
-                      <div className="person-info">
-                        <h3>120</h3>
-                        <p>Participant</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-between align-items-center card-buy-course">
-                  <button className="buy-btn">Buy Now</button>
-                  <div className="buy-price">
-                    <p>
-                      $120<span>/25 Video</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="product-card">
-                <div className="card-img">
-                  <img src={ProductCardImage3} />
-                  <div className="play-btn">
-                    <img src={PlayBtnIcon} />
-                  </div>
-                </div>
-                <div className="card-body">
-                  <h2>Basics of learning team management</h2>
-                  <div className=" d-flex justify-content-between align-items-center">
-                    <div className="d-flex align-items-center mt-2">
-                      <img src={PersonImage3} />
-                      <div className="person-info">
-                        <h3>Jone Owel</h3>
-                        <p>IT Manager</p>
-                      </div>
-                    </div>
-                    <div className="d-flex align-items-center">
-                      <img src={ParticipantIcon} />
-                      <div className="person-info">
-                        <h3>120</h3>
-                        <p>Participant</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-between align-items-center card-buy-course">
-                  <button className="buy-btn">Buy Now</button>
-                  <div className="buy-price">
-                    <p>
-                      $120<span>/25 Video</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="product-card">
-                <div className="card-img">
-                  <img src={ProductCardImage1} />
-                  <div className="play-btn">
-                    <img src={PlayBtnIcon} />
-                  </div>
-                </div>
-                <div className="card-body">
-                  <h2>Basics of learning team management</h2>
-                  <div className=" d-flex justify-content-between align-items-center">
-                    <div className="d-flex align-items-center mt-2">
-                      <img src={PersonImage1} />
-                      <div className="person-info">
-                        <h3>Jone Owel</h3>
-                        <p>IT Manager</p>
-                      </div>
-                    </div>
-                    <div className="d-flex align-items-center">
-                      <img src={ParticipantIcon} />
-                      <div className="person-info">
-                        <h3>120</h3>
-                        <p>Participant</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-between align-items-center card-buy-course">
-                  <button className="buy-btn">Buy Now</button>
-                  <div className="buy-price">
-                    <p>
-                      $120<span>/25 Video</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {courses.map((course, index) => (
+              <CourseCard
+                key={index}
+                courseImage={course.courseImage}
+                playButtonImage={course.playButtonImage}
+                courseTitle={course.courseTitle}
+                instructor={course.instructor}
+                participantIcon={course.participantIcon}
+                participantCount={course.participantCount}
+                price={course.price}
+                videoCount={course.videoCount}
+              />
+            ))}
           </Slider>
         </div>
       </div>

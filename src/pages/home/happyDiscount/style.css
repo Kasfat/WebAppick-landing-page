@@ -90,7 +90,20 @@
     right: 320px;
 }
 
-
+@media (min-width: 993px) and (max-width: 1080px){
+    .happy-discount-section .img-part{
+        right: 110px;
+    }
+    .happy-discount-section .green-shape{
+        right: 240px;
+    }
+    .happy-discount-section .orange-shape{
+        right: 15px;
+    }
+    .happy-discount-section .circle-shape{
+        right: 280px;
+    }
+}
 
 @media screen and (max-width: 992px){
     .happy-discount-section{

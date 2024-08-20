@@ -8,6 +8,7 @@ import ArrowIcon from "../../../assets/images/upArrow.png";
 import PenIcon from "../../../assets/images/iconPen.png";
 import CalendarIcon from "../../../assets/images/iconCalendar.png";
 import VedioIcon from "../../../assets/images/iconVedio.png";
+import SiteButton from "../../../components/button";
 
 function Banner() {
   return (
@@ -37,12 +38,18 @@ function Banner() {
               </p>
 
               <div className=" d-flex align-items-center gap-4 social-media">
-                <button className="start-btn gap-3">
+                <SiteButton
+                  text="Start Journey"
+                  styleClass="start-btn gap-3"
+                  icon={ArrowIcon}
+                  onClick={() => alert("Start Journey button clicked")}
+                />
+                {/* <button className="">
                   Start Journey{" "}
                   <span>
                     <img src={ArrowIcon} />
                   </span>
-                </button>
+                </button> */}
                 <div className=" d-flex gap-3">
                   <img src={InstagramIcon} />
                   <img src={twitterIcon} />

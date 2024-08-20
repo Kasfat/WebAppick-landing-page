@@ -1,0 +1,33 @@
+.customer-review-section .content-part .card{
+    padding: 30px 20px 0px 15px;
+    margin-bottom: 50px;
+    border: none;
+    background: #F8F8F8;
+}
+.customer-review-section .content-part .card .card-body{
+    text-align: center;
+    padding-bottom: 0;
+}
+.customer-review-section .content-part .card .card-body h3{
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 30px;
+ color: #2c2c2c;
+}
+.customer-review-section .content-part .card .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #808080;
+}
+
+@media screen and (max-width: 768px){
+    .customer-review-section .content-part .card .card-body h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .customer-review-section .content-part .card .card-body p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+}

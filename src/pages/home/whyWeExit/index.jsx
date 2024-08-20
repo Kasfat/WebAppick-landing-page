@@ -5,10 +5,38 @@ import MaterialIcon from "../../../assets/images/material.png";
 import MentorIcon from "../../../assets/images/pyramid.png";
 import VedioIcon from "../../../assets/images/wool-ball.png";
 import HighPriceIcon from "../../../assets/images/glass.png";
+import ServiceCard from "../../../components/serviceCard";
 
 function WhyWeExit() {
+  const services = [
+    {
+      icon: MaterialIcon,
+      title: "Material Limitations",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    },
+    {
+      icon: MentorIcon,
+      title: "Unprofessional Mentor",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    },
+    {
+      icon: VedioIcon,
+      title: "Video Quality",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    },
+    {
+      icon: HighPriceIcon,
+      title: "High Price",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    },
+  ];
+
   return (
-    <div className="why-we-sction">
+    <div id="About" className="why-we-sction">
       <div className="row">
         <div className="col-12 col-lg-4">
           <div className="info">
@@ -41,38 +69,14 @@ function WhyWeExit() {
         </div>
         <div className="col-lg-8">
           <div className=" row all-skill">
-            <div className="col-12 col-md-6 skill-item">
-              <img src={MaterialIcon} />
-              <h1>Material Limitations</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-            </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 skill-item">
-              <img src={MentorIcon} />
-              <h1>Unprofessional Mentor</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-            </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 skill-item">
-              <img src={VedioIcon} />
-              <h1>Video Quality</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-            </div>
-            <div className="col-xs-12 col-md-6 skill-item">
-              <img src={HighPriceIcon} />
-              <h1>High Price</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
-            </div>
+            {services.map((service, index) => (
+              <ServiceCard
+                key={index}
+                icon={service.icon}
+                title={service.title}
+                description={service.description}
+              />
+            ))}
           </div>
         </div>
       </div>

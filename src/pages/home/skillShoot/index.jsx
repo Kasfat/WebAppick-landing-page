@@ -6,6 +6,7 @@ import SkillShootIcon2 from "../../../assets/images/skillShootIcon2.png";
 import SkillShootIcon3 from "../../../assets/images/skillShootIcon3.png";
 import SkillShootIcon4 from "../../../assets/images/skillShootIcon4.png";
 import OrangeShapeIcon from "../../../assets/images/orangeSquare.png";
+import SiteButton from "../../../components/button";
 
 function SkillShoot() {
   return (
@@ -79,8 +80,16 @@ function SkillShoot() {
             possible
           </h1>
           <div className="btn-group d-flex gap-3">
-            <button className="join-btn">Join Now</button>
-            <button className="sub-course-btn">Subscribe Course</button>
+            <SiteButton
+              text="Join Now"
+              styleClass="join-btn"
+              onClick={() => alert("Join Now button clicked")}
+            />
+            <SiteButton
+              text="Subscribe Course"
+              styleClass="sub-course-btn"
+              onClick={() => alert("Subscribe Course button clicked")}
+            />
           </div>
         </div>
         <div className="orange-square">

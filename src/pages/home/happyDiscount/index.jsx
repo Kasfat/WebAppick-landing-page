@@ -5,6 +5,7 @@ import GreenIcon1 from "../../../assets/images/greenSquare.png";
 import GreenIcon2 from "../../../assets/images/greenSquare2.png";
 import OrngeIcon from "../../../assets/images/orangeSquare.png";
 import CircleIcon from "../../../assets/images/circle.png";
+import SiteButton from "../../../components/button";
 
 function HappyDiscount() {
   return (
@@ -17,7 +18,12 @@ function HappyDiscount() {
             <br />
             discount for you today
           </h1>
-          <button className="sub-course-btn">Subscribe Course</button>
+          <SiteButton
+            text="Subscribe Course"
+            styleClass="sub-course-btn"
+            onClick={() => alert("Subscribe Course button clicked")}
+          />
+          {/* <button className="sub-course-btn">Subscribe Course</button> */}
           <span className="half-circle-right"></span>
           <div className="green-shape">
             <img src={GreenIcon1} />

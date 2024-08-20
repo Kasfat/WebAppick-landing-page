@@ -1,0 +1,80 @@
+.populer-courses-section .card-section .productSlider .item{
+    padding: 0px 10px;
+}
+
+
+.populer-courses-section .product-card{
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: #FFFFFF;
+    margin-bottom: 40px
+}
+
+.populer-courses-section .product-card .card-img{
+    position: relative;
+}
+.populer-courses-section .product-card .card-img .play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.populer-courses-section .product-card .card-img img{
+    width: 100% !important;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.populer-courses-section .product-card .card-body{
+    padding: 15px;
+}
+.populer-courses-section .product-card .card-body h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+
+.populer-courses-section .product-card .card-buy-course{
+    padding: 15px;
+    background: #FAFAFA;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.populer-courses-section .product-card .card-buy-course .buy-btn{
+    padding: 12px 25px 12px 25px;
+    border-radius: 10px;
+    background: #245D51;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.populer-courses-section .product-card .card-buy-course .buy-price p{
+    margin-bottom: 0px !important;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #2c2c2c;
+}
+
+.populer-courses-section .product-card .card-buy-course .buy-price span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #808080;
+}
+
+
+@media screen and (max-width: 768px){
+    .populer-courses-section .product-card .card-body h2{
+        font-size: 15px;
+        line-height: 18px;
+    }
+}

@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import UpDownLineIcon from "../../assets/images/upDownLine.png";
 import CircleTwo from "../../assets/images/circle2.png";
+import SiteButton from "../button";
+import CompanyLogo from "../companyLogo";
 
 function Footer() {
   return (
@@ -18,7 +20,12 @@ function Footer() {
             </p>
             <div className=" d-flex align-items-center justify-content-center gap-3 mt-4 mail-send">
               <input type="text" placeholder="Enter your email" />
-              <button className="sub-us-btn">Subscribe us</button>
+              <SiteButton
+                text="Subscribe us"
+                styleClass="sub-us-btn"
+                onClick={() => alert("Subscribe us button clicked")}
+              />
+              {/* <button className="sub-us-btn">Subscribe us</button> */}
             </div>
           </div>
         </div>
@@ -28,9 +35,14 @@ function Footer() {
         <div className="footer-menu">
           <div className="row align-items-center justify-content-end">
             <div className=" col-md-2">
-              <h1 className="text-logo">
+              <CompanyLogo
+                text="Skill"
+                spanText="Shoot"
+                styleClass="text-logo"
+              />
+              {/* <h1 className="text-logo">
                 Skill<span>Shoot</span>
-              </h1>
+              </h1> */}
             </div>
             <div className="col-12 col-md-10 menu-part">
               <ul className="all-menu-item-list">

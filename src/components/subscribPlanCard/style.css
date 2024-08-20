@@ -1,0 +1,140 @@
+.sub-plan-card .cards .card{
+    width: 293px;
+    border: none;
+    padding: 15px 15px;
+}
+.sub-plan-card .cards .card.active{
+    box-shadow: 0px 20px 10px 0px rgba(36, 93, 81, 0.5);
+    background-color: #245D51;
+    width: 293px;
+    padding: 15px 15px;
+    border-radius: 20px;
+    transform: translateY(-70px);
+
+    
+}
+
+.sub-plan-card .cards .card h1{
+    font-size: 36px;
+    font-weight: 700;
+   
+    color: #2c2c2c;
+    margin: 0px;
+}
+.sub-plan-card .cards .card.active .populer-btn{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    background-color: #CB8461;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+.sub-plan-card .cards .card.active h1{
+    color: #fff;
+}
+.sub-plan-card .cards .card h1 span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+.sub-plan-card .cards .card.active h1 span{
+color: #fff;
+}
+.sub-plan-card .cards .card-body{
+    padding: 0px;
+    margin-top: 10px;
+}
+.sub-plan-card .cards .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #808080;
+}
+.sub-plan-card .cards .active .card-body p{
+    color: #fff;
+}
+
+
+.sub-plan-card .cards .card-body ul{
+    padding: 0px !important;
+    list-style: none;
+}
+
+.sub-plan-card .cards .card-body ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2c2c2c;
+    padding: 5px;
+}
+.sub-plan-card .cards .active .card-body ul li{
+    color: #fff;
+}
+.sub-plan-card .cards .card-body ul li div{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    background-color: #EDECF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-plan-card .cards .active .card-body ul li div{
+    background-color: #245D51
+}
+
+.sub-plan-card .cards .card-body .choose-btn{
+    background-color: #FFFAF8;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 50px;
+    color: #FDC2A5;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.sub-plan-card .cards .active .card-body .choose-btn{
+    background-color: #CB8461;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px){
+    .sub-plan-card .cards{
+        flex-direction: column;
+    }
+    .cards .card {
+        order: 2;
+    }
+
+    .cards .card.active {
+        order: 1;
+    }
+    .sub-plan-card .cards .card.active{
+        transform: translateY(-40px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sub-plan-card .cards .card h1{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .sub-plan-card .cards .card h1 span{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .sub-plan-card .cards .card-body p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .sub-plan-card .cards .card-body ul li{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .sub-plan-card .cards .card-body .choose-btn{
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
