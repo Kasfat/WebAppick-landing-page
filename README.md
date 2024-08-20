@@ -1,8 +1,9 @@
-# React + Vite
+# Web Appick Landing Page 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone or download this repository.
+2. Open the project in your local machine use vsCode or any IDE.
+3. open terminal in your code directory.
+4. Then use this command "npm install".
+5. Now run the project using this command "npm run dev".
