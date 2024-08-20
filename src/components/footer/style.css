@@ -138,6 +138,29 @@
         top: 75%;
         left: 6%;
     }
+    .footer-section .footer-content .footer-info h1{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .footer-section .footer-content .footer-info p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .footer-info .mail-send .sub-us-btn{
+        font-size: 12px;
+    }
+    .footer-section .footer-content .footer-info .mail-send input{
+        width: 100%;
+    }
+    .footer-info .mail-send input::placeholder{
+        font-size: 12px;
+    }
+    .menu-item-list{
+        font-size: 12px;
+    }
+    .footer-section .footer-menu .text-logo{
+        font-size: 18px;
+    }
 }
 
 

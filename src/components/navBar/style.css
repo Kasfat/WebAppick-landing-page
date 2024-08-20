@@ -56,7 +56,16 @@ header .text-logo span{
     display: none;
 }
 
+@media (min-width: 993px) and (max-width: 1200px){
+    .menu-item{
+        margin-left: 5rem !important;
+    }
+    .menu-list{
+        gap: 20px;
+    }
 
+    
+}
 
 @media screen and (max-width: 992px){
     .content-menu{

@@ -72,6 +72,17 @@
         align-items: center;
     }
 
+
+    @media (min-width: 993px) and (max-width: 1200px){
+        .person-part{
+            margin-left: 20px;
+        }
+        .person-part img{
+            width: 409px;
+            height: 441px;
+        }
+    }
+
     @media screen and (max-width: 992px){
         .content-block .person{
             display: none;
