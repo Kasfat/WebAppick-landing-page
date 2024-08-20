@@ -81,7 +81,7 @@ function SubscribePlane() {
                 isPopular={plan.isPopular}
                 icon={plan.icon}
                 buttonText="Choose plan"
-                onChoosePlan={() => alert(`You chose the ${plan.title} plan`)} // Example callback
+                onChoosePlan={() => alert(`You chose the ${plan.title} plan`)}
               />
             ))}
           </div>
